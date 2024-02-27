@@ -143,6 +143,11 @@
 @councilor_toxic_baths_attendant_unity = 0.5
 @gestalt_civic_node_xp_rate = 0.25
 
+# Delegate values
+@resolution_focus_amt_1 = 20
+@resolution_focus_amt_2 = 35
+@resolution_focus_amt_3 = 50
+
 #Agenda and Tradition values
 @agenda_finish_modifier_duration = 3600	# Should match COUNCIL_AGENDA_FINISH_MODIFIER_DURATION
 @agenda_we_come_in_peace_trust = 25

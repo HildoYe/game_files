@@ -1947,68 +1947,6 @@ defined_text = {
 	default = TUTORIAL_LEADER_LEVEL_UP_PARAGON_NO
 }
 
-defined_text = {
-	name = GetScriptedLeaderPortraitBackground
-	random = no
-	text = {
-		localization_key = GFX_leader_legendary_bg_azaryn
-		trigger = {
-			has_leader_flag = azaryn
-		}
-	}
-	text = {
-		localization_key = GFX_leader_legendary_bg_beholder
-		trigger = {
-			has_leader_flag = beholder
-		}
-	}
-	text = {
-		localization_key = GFX_leader_legendary_bg_skrand
-		trigger = {
-			has_leader_flag = skrand
-		}
-	}
-
-	text = {
-		localization_key = GFX_leader_legendary_bg_keides
-		trigger = {
-			has_leader_flag = exakeides
-		}
-	}
-
-	text = {
-		localization_key = GFX_leader_bg_ruler
-		trigger = {
-			is_ruler = yes
-		}
-	}
-	text = {
-		localization_key = GFX_leader_bg_admiral
-		trigger = {
-			leader_class = commander
-		}
-	}
-	# text = {
-	# 	localization_key = GFX_leader_bg_general
-	# 	trigger = {
-	# 		leader_class = general
-	# 	}
-	# }
-	text = {
-		localization_key = GFX_leader_bg_scientist
-		trigger = {
-			leader_class = scientist
-		}
-	}
-	text = {
-		localization_key = GFX_leader_bg_official
-		trigger = {
-			leader_class = official
-		}
-	}
-	default = GFX_leader_bg_official
-}
-
 # Scripted Value DEBUGGING
 #effect = { log = "Value: [This.scriptval__leader_pending_negative_traits_modified]" }
 defined_text = {
