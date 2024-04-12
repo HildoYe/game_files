@@ -2100,7 +2100,7 @@ country_event = {
 						}
 					}
 				}
-				log_error = "[Root.GetRealName] has encountered [This.GetRealName] (country type: [This.GetCountryType]) but has neither communications with them nor an active First Contact site to do so."
+				#log_error = "[Root.GetRealName] has encountered [This.GetRealName] (country type: [This.GetCountryType]) but has neither communications with them nor an active First Contact site to do so."
 				root = {
 					set_relation_flag = {
 						who = prev

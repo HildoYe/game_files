@@ -7164,7 +7164,9 @@ country_event = {
 	option = {
 		name = INTERESTING
 		event_target:leading_vultaum_research_scientist = {
-			add_trait = leader_trait_maniacal
+			add_or_level_up_veteran_trait_effect = {
+				TRAIT = leader_trait_maniacal
+			}
 			add_trait = leader_trait_substance_abuser
 			add_experience = 200
 		}
@@ -7188,7 +7190,9 @@ country_event = {
 	option = {
 		name = INTERESTING
 		event_target:leading_vultaum_research_scientist = {
-			add_trait = leader_trait_maniacal
+			add_or_level_up_veteran_trait_effect = {
+				TRAIT = leader_trait_maniacal
+			}
 			add_experience = 200
 		}
 	}

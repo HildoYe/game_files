@@ -190,7 +190,7 @@ planet_event = {
 
 	immediate = {
 		set_planet_flag = refugees_escaping_crisis
-		planet_event = { id = refugees.6 random = 90 }
+		planet_event = { id = refugees.6 days = 45 random = 45 }
 	}
 }
 

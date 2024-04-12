@@ -416,6 +416,14 @@ ROBOT = {
 		}
 	}
 
+	custom_portraits = {
+		randomized = { has_rick_the_cube_dlc = yes }
+		playable = { has_rick_the_cube_dlc = yes }
+		portraits = {
+			"cyb_machine"
+		}
+	}
+
 	custom_portraits = { # use custom_portraits instead of portraits so we can put them after the custom_portraits above
 		randomized = { always = yes }
 		playable = { always = yes }
@@ -527,18 +535,36 @@ MACHINE = {
 	custom_portraits = {
 		randomized = {
 			AND = {
-				host_has_dlc = "Synthetic Dawn Story Pack"
-				has_toxoids = yes
+				host_has_dlc = "Synthetic Dawn Story Pack"				
+				has_toxoids = yes				
 			}
 		}
 		playable = {
 			AND = {
 				host_has_dlc = "Synthetic Dawn Story Pack"
-				has_toxoids = yes
+				has_toxoids = yes				
 			}
 		}
 		portraits = {
 			"tox_machine"
+		}
+	}
+
+	custom_portraits = {
+		randomized = {
+			AND = {
+				host_has_dlc = "Synthetic Dawn Story Pack"
+				has_rick_the_cube_dlc = yes 
+			}
+		}
+		playable = {
+			AND = {
+				host_has_dlc = "Synthetic Dawn Story Pack"
+				has_rick_the_cube_dlc = yes 
+			}
+		}
+		portraits = {
+			"cyb_machine"
 		}
 	}
 

@@ -72,6 +72,7 @@ leader_trait_legendary_leader = { #Origin trait
 }
 
 leader_trait_legendary_offspring = { #Origin trait - offspring
+	force_councilor_trait = yes
 	inline_script = {
 		script = trait/icon
 		CLASS = leader

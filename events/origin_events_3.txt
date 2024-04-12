@@ -2065,6 +2065,7 @@ country_event = { # Overlord Version
 					type = "gateway_ruined"
 					coords_from = prev
 				}
+				set_star_flag = abandoned_gateway
 			}
 			remove_megastructure = this
 		}

@@ -4017,6 +4017,11 @@ astral_rift_event = {
 					save_event_target_as = grave_guardians_country
 				}
 			}
+			event_target:grave_guardians_country = {
+				every_country = {
+					establish_communications_no_message = prev
+				}
+			}
 			create_fleet = {
 				name = "NAME_Grave_Guardians"
 				settings = {

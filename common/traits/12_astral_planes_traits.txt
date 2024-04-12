@@ -364,9 +364,6 @@ trait_plasmic = {
 	species_potential_add = {
 		always = no
 	}
-	species_possible_remove = {
-		always = no
-	}
 	species_possible_merge_add = {
 		always = no
 	}
